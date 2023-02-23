@@ -28,10 +28,10 @@ public class Transport {
         return this.name;
     }
 
+
     public void changeName () {
         System.out.println("Transport is moving");
     }
-
     public void options () {
         System.out.println("I can move back and forward");
     }
