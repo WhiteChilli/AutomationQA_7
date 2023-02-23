@@ -7,6 +7,7 @@ public class Main {
 
         String trainName = train.getName();
         System.out.println(trainName);
+
         int trainCapacity = train.getSeatCount();
         System.out.println(trainCapacity);
     }
