@@ -10,5 +10,11 @@ public class Main {
 
         int trainCapacity = train.getSeatCount();
         System.out.println(trainCapacity);
+
+        Car ford = new Car();
+        ford.options();
+
+        Car bwm = new Car();
+        bwm.move();
     }
 }

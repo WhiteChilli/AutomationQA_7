@@ -29,7 +29,7 @@ public class Transport {
     }
 
 
-    public void changeName () {
+    public void move () {
         System.out.println("Transport is moving");
     }
     public void options () {
