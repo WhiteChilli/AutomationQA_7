@@ -8,28 +8,36 @@ public class Calculation {
 
         Random rd = new Random();
 
-            for (int i = 1; i < LENGTH; i++) {
-//                System.out.println("Это строка No " + i);
+        for (int i = 1; i < LENGTH; i++) {
                 System.out.println(rd.nextInt());
             }
 
-    }
+        int[] tenNumArray;
+            tenNumArray = new int[10];
+            // for loop creates 1 t 10 and adds to the tenNumArray
+            for (int i = 0; i < tenNumArray.length; i++) {
+                tenNumArray[i] = i + 1;
+                System.out.println(tenNumArray[i]);
+            }
+
+        int[] evenArray;
+            evenArray = new int [5];
+
+        int index = 0; // counter for even array
+            for (int i = 0; i < tenNumArray.length; i++) {
+                if (tenNumArray[i] % 2 == 0) {
+                    evenArray[index] = tenNumArray[i];
+                    index++;
+                }
+            }
+
+        int k = 0; // counter for while loop
+        while (k < evenArray.length) {
+            System.out.println(evenArray[k]);
+            k++;
+        }
+
+            }
+
 }
 
-
-//3 Создайте класс Calculation и определите в нем main метод
-//        (сокращение psvm). Реализуйте логику следующий заданий в методе main
-//        3.1 Создайте массив целых чисел. Длину массива определите с
-//        использованием константы, которую нужно объявить заранее. С помощью
-//        цикла for заполните все элементы массива случайным целым значением,
-//        которое можно генерировать например с помощью стандартного класса
-//        Random (попросит импортировать его):
-//
-//        Random rd = new Random();
-//        System.out.println(rd.nextInt());
-//
-//        3.2 Создайте массив целых чисел от 1 до 10 в цикле. Создайте новый
-//        массив в рамках другого цикла, где есть только чётные числа.
-//        Подсказка - для определения четности используем остаток от деления на
-//        2 (num % 2 == 0 ). С помощью цикла while выведите содержимое массива
-//        с четными числами на экран.
