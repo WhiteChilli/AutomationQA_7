@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19877cc2-1de7-405d-b0b2-a42a202ad0ae" name="Changes" comment="Homework 7 updated">
+    <list default="true" id="19877cc2-1de7-405d-b0b2-a42a202ad0ae" name="Changes" comment="Homework 7 updated added Calculation.java loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculation.java" afterDir="false" />
     </list>
@@ -20,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,13 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anna/IdeaProjects/AutomationQA_7&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/anna/IdeaProjects/AutomationQA_7",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Calculation">
     <configuration name="Calculation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculation" />
@@ -126,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677220612282</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homework 7 updated added Calculation.java loop">
+      <created>1677738051894</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677738051894</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +167,7 @@
     <MESSAGE value="Homework 7 started task 1" />
     <MESSAGE value="Homework 7 updated Transport added Car" />
     <MESSAGE value="Homework 7 updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 updated" />
+    <MESSAGE value="Homework 7 updated added Calculation.java loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 updated added Calculation.java loop" />
   </component>
 </project>
